@@ -1,5 +1,47 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiahao's Labs' For INST377</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header"><h1>Jiahao Chen's Labs For INST377</h1></header>
+      <div class="container">
+        <div class="left_section box">
+          <h2>Album Names</h2>
+          <ol class="box">
+            <li>Renaissance - Beyonce</li>
+            <li>Motomami - Rosalia</li>
+            <li>Strays - Margo Price</li>
+            <li>Mercy - John Cale</li>
+            <li>Furling - Meg Baird</li>
+          </ol>
+        </div>
+        <div class="right_section box">
+          <h2>Image Carousel</h2>
+          <div class="carousel">
+              <button class="prev">prev</button>
+              <div class="slides">
+                <div class="carousel_item visible"><img id="slide_1" src="images/dog 1.png" alt="An image of a dog" /></div>
+                <div class="carousel_item hidden"><img id="slide_2" src="images/dog 2.png" alt="An image of a dog" /></div>
+                <div class="carousel_item hidden"><img id="slide_3" src="images/dog 3.png" alt="An image of a dog" /></div>
+                <div class="carousel_item hidden"><img id="slide_4" src="images/dog 4.png" alt="An image of a dog" /></div>
+              </div>
+              <button class="next">next</button>
+          </div>
+          <div class="box">
+            <p>An image of a dog</p>
+          </div>
+        </div>
+      </div>
+        <footer class="footer">
+            MY GITHUB ACCOUNT NAME <a href="https://github.com/ethan8943/INST377-Lab-Work.git">My Github Account</a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
